@@ -1,4 +1,4 @@
-# lazy-but-smart 🤖
+# WhileIRest 🤖
 
 Automation scripts that do the boring stuff for you — built with Python.
 
