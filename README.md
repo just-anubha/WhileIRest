@@ -25,9 +25,9 @@ Sends scheduled daily reminder emails automatically.
 ### What I learned
 - SMTP protocol — how emails actually travel
 - try/except error handling
-- List of dictionaries — Lecture 3 + 4
-- while True loop keeping bot alive — Lecture 5
-- Functions for reusable logic — Lecture 6
+- List of dictionaries for storing reminder data
+- while True loop keeping bot alive in background
+- Functions for reusable logic
 
 ## Coming soon
 - [ ] Day 3: Web Scraper
