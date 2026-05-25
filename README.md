@@ -9,6 +9,15 @@ Automatically sorts your Downloads folder into subfolders by file type.
 - Images, PDFs, Videos, Music, Code, Others
 - Built with: `os`, `shutil`
 
+### How to run
+1. Run: `python file_organiser.py`
+2. Check your Downloads folder — files sorted automatically
+
+### What I learned
+- os and shutil modules for file operations
+- pathlib for handling file paths
+- Automating repetitive tasks with Python
+
 ## Day 2 — Email Reminder Bot
 
 Sends scheduled daily reminder emails automatically.
