@@ -1,58 +1,50 @@
 # WhileIRest 🤖
 
-Automation scripts that do the boring stuff for you — built with Python.
+> Small automations. Real code. Learning by doing.
 
-## Projects
+Python scripts that handle tedious tasks so I don't have to.
+Built solo — one script at a time, every line understood before moving on.
 
- File Organiser
-Automatically sorts your Downloads folder into subfolders by file type.
-- Images, PDFs, Videos, Music, Code, Others
-- Built with: `os`, `shutil`
+---
 
-### How to run
-1. Run: `python file_organiser.py`
-2. Check your Downloads folder — files sorted automatically
+### File Organiser 🗂️
 
-### What I learned
-- os and shutil modules for file operations
-- pathlib for handling file paths
-- Automating repetitive tasks with Python
+Watches my Downloads folder and quietly sorts chaos into folders.
 
-Email Reminder Bot
+```
+Downloads/
+├── Images/      .jpg  .png  .gif
+├── PDFs/        .pdf
+├── Videos/      .mp4  .mov
+├── Music/       .mp3  .wav
+└── Code/        .py   .js   .html
+```
 
-Sends scheduled daily reminder emails automatically.
+`os` · `shutil` · `pathlib`
 
-- Morning, afternoon and evening reminders
-- Bot runs in background watching the clock
-- Built with: `smtplib`, `schedule`
+---
 
-### How to run
-1. Generate a Gmail App Password (myaccount.google.com/apppasswords)
-2. Create `config.py` with your credentials
-3. Run: `python day2_emailbot.py`
+### My Email Bot 📬
 
-### What I learned
-- SMTP protocol — how emails actually travel
-- try/except error handling
-- List of dictionaries for storing reminder data
-- while True loop keeping bot alive in background
-- Functions for reusable logic
+Sends reminder emails on a schedule — morning, afternoon, night.
 
-Quotes Web Scraper
+- 🌅 8 AM — morning nudge
+- 📚 2 PM — study check-in
+- 🌙 10 PM — wind down
 
-Scrapes 100 quotes from 10 pages and saves them to a file.
+> Set up `config.py` with your Gmail credentials before running.
 
-- Extracts quote text and author from each page
-- Loops through all 10 pages automatically
-- Built with: `requests`, `BeautifulSoup`
+`smtplib` · `schedule`
 
-### How to run
-1. Run: `python day3_scraper.py`
-2. Check quotes.txt for all 100 scraped quotes
+---
 
-### What I learned
-- How websites are just HTML under the hood
-- requests to fetch web pages
-- BeautifulSoup to parse and search HTML
-- Nested for loops — pages then quotes
-- Saving data to files
+### Scraped: Borrowed Wisdom 🌐
+
+Pulls 100 quotes across 10 pages from a live site and saves them to a file.
+First time touching real HTML with code — more satisfying than expected.
+
+`requests` · `BeautifulSoup`
+
+---
+
+*No shortcuts. No copying without understanding. Just me figuring it out.*
