@@ -14,6 +14,8 @@ Images, PDFs, Videos, Music, and Code, all in their place.
 
 `os` · `shutil` · `pathlib`
 
+> `python file_organiser.py`
+
 <br>
 
 ### My Email Bot 📬
@@ -28,12 +30,16 @@ Sends reminder emails on a schedule — morning, afternoon, night.
 
 `smtplib` · `schedule`
 
+> `python day2_emailbot.py`
+
 <br>
 
 ### Scraped: Borrowed Wisdom 🌐
 
 Pulls 100 quotes across 10 pages from a live site and saves them to a file.
 First time touching real HTML with code — more satisfying than expected.
+
+> `python day3_scraper.py`
 
 `requests` · `BeautifulSoup`
 
