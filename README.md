@@ -5,24 +5,16 @@
 Python scripts that handle tedious tasks so I don't have to.
 Built solo — one script at a time, every line understood before moving on.
 
----
+<br>
 
 ### File Organiser 🗂️
 
-Watches my Downloads folder and quietly sorts chaos into folders.
-
-```
-Downloads/
-├── Images/      .jpg  .png  .gif
-├── PDFs/        .pdf
-├── Videos/      .mp4  .mov
-├── Music/       .mp3  .wav
-└── Code/        .py   .js   .html
-```
+Watches my Downloads folder and quietly sorts chaos into folders —
+Images, PDFs, Videos, Music, and Code, all in their place.
 
 `os` · `shutil` · `pathlib`
 
----
+<br>
 
 ### My Email Bot 📬
 
@@ -36,7 +28,7 @@ Sends reminder emails on a schedule — morning, afternoon, night.
 
 `smtplib` · `schedule`
 
----
+<br>
 
 ### Scraped: Borrowed Wisdom 🌐
 
@@ -45,6 +37,7 @@ First time touching real HTML with code — more satisfying than expected.
 
 `requests` · `BeautifulSoup`
 
----
+<br>
 
 *No shortcuts. No copying without understanding. Just me figuring it out.*
+
